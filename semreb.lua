@@ -676,7 +676,7 @@ local quests = {{
 }, {
     name = "Wukong (Omen)",
     nickname = "Wukong (Omen)",
-    requiredValue = 210000001,
+    requiredValue = 200000001,
     endRange = 600000000,
     planet = "Bills"
 }, {
