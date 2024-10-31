@@ -665,7 +665,7 @@ local quests = {{
     name = "SSJG Kakata",
     nickname = "SSJG Kakata",
     requiredValue = 100000000,
-    endRange = 2000000000000,
+    endRange = 150000000,
     planet = "Earth"
 }, {
     name = "Vegetable (GoD in-training)",
@@ -676,7 +676,7 @@ local quests = {{
 }, {
     name = "Wukong (Omen)",
     nickname = "Wukong (Omen)",
-    requiredValue = 200000001,
+    requiredValue = 210000001,
     endRange = 600000000,
     planet = "Bills"
 }, {
@@ -729,7 +729,7 @@ local function check1()
     pcall(function()
     local checkValue = getCheckValue()
 
-    if checkValue >= 200000000 and game.placeId ~= 5151400895 then
+    if checkValue >= 150000000 and game.placeId ~= 5151400895 then
         data = game.ReplicatedStorage.Datas[game.Players.LocalPlayer.UserId]
         if data.Zeni.Value >= 15000 then
 
